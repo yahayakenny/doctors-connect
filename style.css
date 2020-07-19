@@ -19,7 +19,7 @@ body {
 
 .navbar h2{
     padding: 30px !important;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: 'Poppins';
     font-weight: bold !important;
     letter-spacing: 3px;
 }
