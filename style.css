@@ -18,10 +18,11 @@ body {
 }
 
 .navbar h2{
-    padding: 30px !important;
+    padding: 20px !important;
     font-family: 'Poppins';
     font-weight: bold !important;
     letter-spacing: 3px;
+    font-size: 25px;
 }
 
 .intro-text h2{
