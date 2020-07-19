@@ -29,7 +29,8 @@ body{
 }
 
 #home {
-	background: url(../images/pawel-czerwinski-IKZg31SuNqU-unsplash.jpg) no-repeat center fixed;
+    background: url(../images/hero-img.png
+    ) no-repeat center fixed;
 	display: table;
 	height: 800px;
 	width: 100%;
