@@ -65,7 +65,7 @@ width: 50vh !important;
 
 @media (max-width: 767px){
   .intro img {
-    padding-top: 50px;
+    padding-top: 150px;
     padding-bottom: 20px;
     width: 90%;
     z-index: 10;
