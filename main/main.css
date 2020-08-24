@@ -1,241 +1,230 @@
-html, body {
-    position: relative;
-    overflow-x: hidden;
-    
+html,
+body {
+  position: relative;
+  overflow-x: hidden;
 }
 
-body{
-
-    background-color: #232323 !important;
-    font-family: 'Poppins';
-    font-style: normal;
+body {
+  background-color: #232323 !important;
+  font-family: 'Poppins';
+  font-style: normal;
 }
 
 .navbar {
-    padding: 30px;
-    background-color: #232323 !important;
+  padding: 30px;
+  background-color: #232323 !important;
 }
 
 .navbar h2 {
-    color: white;
+  color: white;
 }
 
 .navbar span {
-    color: white !important;
+  color: white !important;
 }
 
 .navbar li a {
-    color: white !important;
+  color: white !important;
 }
 
 #home {
-    background: url(../images/hero-img.png
-    ) no-repeat center fixed;
-	display: table;
-	height: 800px;
-	width: 100%;
-	position: relative;
-	background-size: cover;
+  background: url(../images/pawel-czerwinski-IKZg31SuNqU-unsplash.jpg);
+  width: 100% !important;
+  height: 100vh;
+  position: relative;
+  background-position: center;
+  background-attachment: scroll;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .landing-text {
-	display: table-cell;
-	text-align: center;
-	vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
 }
 
 .landing-text h2 {
-	font-size: 350%;
-    font-weight: bold;
-    color: white;
-    z-index: 10;
-    font-family: 'Poppins';
-    font-style: normal;  
-    line-height: 114.5%;
-    
-
+  font-size: 350%;
+  font-weight: bold;
+  color: white;
+  z-index: 10;
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 114.5%;
 }
+
 .landing-text h4 {
-	font-size: 200%;
-    font-weight: bold;
-    z-index: 10;
-    font-family: 'Poppins';
-    font-style: normal;  
-    line-height: 114.5%;
-    color:white;
-    
-
+  font-size: 200%;
+  font-weight: bold;
+  z-index: 10;
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 114.5%;
+  color: white;
 }
+
 .landing-text h5 {
-	font-size: 140%;
-    font-weight: bold;
-    color: white;
-    z-index: 10;
-    font-family: 'Poppins';
-    font-style: normal;  
-    line-height: 114.5%;
-
+  font-size: 140%;
+  font-weight: bold;
+  color: white;
+  z-index: 10;
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 114.5%;
 }
+
 .landing-text h3 {
-	font-size: 190%;
-    font-weight: bold;
-    color: white;
-    z-index: 10;
-    font-family: 'Poppins';
-    font-style: normal;  
-    line-height: 114.5%;
-
+  font-size: 190%;
+  font-weight: bold;
+  color: white;
+  z-index: 10;
+  font-family: 'Poppins';
+  font-style: normal;
+  line-height: 114.5%;
 }
-
 
 .card {
-    border-radius: 20px !important;
-    width: 16rem;
-    height: 17rem !important;
-   ;
-  }
-  
-  .card-img-top {
-    border-top-left-radius: 20px !important;
-    border-top-right-radius: 20px !important;
-    text-align: center;
-    height:75%;
-   
-  }
-  .card-text {
-    font-family: 'Poppins';
-    font-style: normal; 
+  border-radius: 20px !important;
+  width: 16rem;
+  height: 17rem !important;
+}
 
-  }
+.card-img-top {
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  text-align: center;
+  height: 75%;
+}
 
-  .services h1 {
-    font-family: 'Poppins';
-    font-style: normal; 
-    color: black;
-  }
+.card-text {
+  font-family: 'Poppins';
+  font-style: normal;
+}
 
-  .marriage-text h1{
-      color: white;
-      font-family: 'Poppins';
-      font-style: normal; 
-  }
-  .marriage-text h5{
-       color: #ABABAB;
-      font-family: 'Poppins';
-    font-style: normal; 
-  }
+.services h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  color: black;
+}
 
+.marriage-text h1 {
+  color: white;
+  font-family: 'Poppins';
+  font-style: normal;
+}
 
+.marriage-text h5 {
+  color: #ababab;
+  font-family: 'Poppins';
+  font-style: normal;
+}
 
 .carousel {
-    height:560px;
-    padding-top: 50px;
-    padding-bottom: 50px;    
+  height: 560px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
-    
+
 .carousel-inner img {
-    height:600px;
-    width: 800px;
-    object-fit: contain;   
+  height: 600px;
+  width: 800px;
+  object-fit: contain;
 }
-
-
 
 #slides {
-    margin-bottom: 200px;
+  margin-bottom: 200px;
 }
 
-
 .intro-text h4 {
-font-family: 'Poppins';
-font-style: normal;
-font-weight:  bold;
-line-height: 114.5%;
-color: #ABABAB;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: bold;
+  line-height: 114.5%;
+  color: #ababab;
 }
 
 .services {
-    padding: 150px 0 !important;
-    background-color: white;
+  padding: 60px 0 !important;
+  background-color: white;
 }
 
-
-
 .mission-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 80vh;
-    font-family: 'Poppins'; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  font-family: 'Poppins';
 }
 
 .mission-text h1 {
-    color: white;
-}
-.mission-text h5 {
-    color: #ABABAB;
-}
-.marriage img{
-    width: 130%;
-    
+  color: white;
 }
 
+.mission-text h5 {
+  color: #ababab;
+}
+
+.marriage img {
+  width: 130%;
+}
 
 .marriage-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+  font-family: 'Poppins';
+}
+
+.process {
+  padding: 100px 0;
+  color: black;
+  background-color: white;
+}
+
+.process li {
+  list-style-type: none;
+}
+
+.info {
+  font-family: 'Poppins';
+}
+
+@media (max-width: 767px) {
+  .card {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+
+  .mission-text {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 80vh;
+    height: 20vh;
     font-family: 'Poppins';
- 
-}
-.process {
-    padding: 100px 0;
-    color: black;
-    background-color: white;
+    color: white;
+  }
 
-}
+  .mission {
+    margin-bottom: 150px;
+  }
 
-.process li {
-    list-style-type: none;
-}
-
-.info {
-    font-family: 'Poppins';
-}
-@media (max-width: 767px){
-    .card {
-        margin: 0 auto;
-        display: block;
-        padding-bottom: 20px;
-        margin-bottom: 30px;
-      
-
-    }
-    .mission-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 20vh;
-        font-family: 'Poppins';
-        color: white;
-    
-    }
-
-    .mission {
-        margin-bottom: 150px;
-    }
-
-    .marriage img{
-        width: 130%;
-        height: 80%;
-        margin: 0 auto;
-        display: block;
-        
-    }
-   
-
+  .marriage img {
+    width: 130%;
+    height: 80%;
+    margin: 0 auto;
+    display: block;
+  }
 }
