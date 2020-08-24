@@ -24,7 +24,9 @@ body {
 }
 
 .navbar li a {
-  color: white !important;
+    color: white !important;
+    padding: 15px;
+    font-family: 'Poppins';
 }
 
 #home {
